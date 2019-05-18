@@ -23,6 +23,6 @@ public class MainTest {
     public void hasMessageMember() throws Exception {
         Field field = Main.class.getDeclaredField("message");
         field.setAccessible(true);
-        assertEquals(field.get(null).toLowerCase(), "hello");
+        assertEquals(field.get(null).toString().toLowerCase(), "hello");
     }
 }
