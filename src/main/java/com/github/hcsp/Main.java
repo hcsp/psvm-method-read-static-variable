@@ -6,7 +6,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        String message ="Hello！";
+        String message ="Hello！ ";
 
         System.out.println(message);
 
